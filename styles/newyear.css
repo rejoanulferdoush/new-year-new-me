@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+}
+.btn-primary1{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* nav styles */
+.hero-nav{
+    display: flex;
+    align-items: center;
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    text-align: right;
+    color: rgb(61, 61, 61);
+}
+.nav-item{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding-left: 460px;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 60px;
+}
+.nav-description{
+    font-size: 16px;
+    color: #444343;
+    margin: 25px 0px;
+}
+/* story styles */
+.story{
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin: 100px 0;
+}
+.story img{
+    padding-left: 68px;
+}
+.story-container {
+    padding-left: 68px;
+    margin-top: 180px;
+}
+.story-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.sotry-description{
+    font-size: 16px;
+    color: #444343;
+    margin: 24px 0px;
+}
+.story-list{
+    list-style: none;
+    color: #444343;
+}
+.story-list li i{
+    color: #F15B22;
+    font-size: 20px;
+}
+/* my plan styles */
+.my-plan{
+    text-align: center;
+}
+.plan-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 50px 0px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.plan-subtitle{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* callnow styles */
+.callnow{
+    background: linear-gradient(to right, #F15B22, rgba(241, 91, 34, 0)),
+    url(/images/watch.png);
+    margin: 100px 0px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 60px;
+    border-radius: 8px;
+}
+.call-tittle{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
