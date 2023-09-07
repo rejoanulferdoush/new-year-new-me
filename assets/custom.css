@@ -50,17 +50,17 @@
 }
 
 /* My exp styles */
-.exp-img{
-    background-repeat: no-repeat;
-}
-.exp-desc{
-    width: 50%;
-}
 .exp-container{
     display: flex;
     gap: 40px;
     justify-content: space-between;
     padding: 0px 200px;
+}
+.exp-img{
+    background-repeat: no-repeat;
+}
+.exp-desc{
+    width: 50%;
 }
 .exp-head{
     margin-bottom: 24px;
@@ -80,4 +80,40 @@
     font-size: 16px;
     list-style: none;
     line-height: 26px;
+}
+/* Plan styles */
+.plan-head{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0px 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+.plan-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    width: 92.958px;
+    height: 92.958px;
+   
+}
+.plan-tittle{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.plan-desc{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
 }
