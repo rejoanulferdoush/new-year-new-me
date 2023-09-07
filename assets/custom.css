@@ -46,6 +46,7 @@
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
+    line-height: 26px;
 }
 
 /* My exp styles */
@@ -62,12 +63,21 @@
     padding: 0px 200px;
 }
 .exp-head{
+    margin-bottom: 24px;
     color: #151414;
     font-size: 40px;
     font-weight: 700;
 }
 .exp-comp{
+    margin-bottom: 24px;
     color: #444343;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
+}
+.exp-features li{
+    color: #444343;
+    font-size: 16px;
+    list-style: none;
+    line-height: 26px;
 }
